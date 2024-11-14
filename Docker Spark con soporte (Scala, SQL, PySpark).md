@@ -1,5 +1,7 @@
 ## Docker Spark con soporte (Scala, SQL, PySpark)
 
+Tutorial de Leo y Edu
+
 ![docker-spark](https://github.com/user-attachments/assets/2666f302-7f84-496b-9331-e13fa8233955)
 Este repositorio proporciona un contenedor Docker preconfigurado para ejecutar **Apache Spark** con soporte para múltiples lenguajes de programación: **Scala**, **PySpark** y **SQL**. Este entorno es ideal para ejecutar tareas de procesamiento de datos a gran escala, permitiendo a los usuarios aprovechar las potentes capacidades de Spark en un entorno aislado y reproducible.
 
