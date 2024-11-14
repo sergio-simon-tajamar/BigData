@@ -1,4 +1,5 @@
 # Proyecto: Azure Synapse Analytics Tutorial
+Tutorial Viku
 
 ## Descripción
 Este repositorio contiene un tutorial completo sobre cómo comenzar con Azure Synapse Analytics, incluyendo la creación de un área de trabajo, la configuración de una cuenta de almacenamiento, la carga y análisis de datos utilizando SQL sin servidor y Apache Spark. Está diseñado para ayudar a los usuarios a familiarizarse con Azure Synapse y sus herramientas principales.
