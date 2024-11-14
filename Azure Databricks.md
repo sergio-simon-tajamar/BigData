@@ -7,17 +7,18 @@ Azure Databricks es una plataforma de análisis de datos unificada y abierta que
 
 1. Buscamos Databricks y creamos un area de trabajo con esta configuracion:
 
-![alt text]({FE7F0106-B9C8-44AE-8975-B21BB4664E3C}.png)
+![image](https://github.com/user-attachments/assets/b326b055-0ea4-4918-bb18-a70c9620bd20)
 
 2. Una vez creado vamos al recurso e iniciamos el área de trabajo(esto nos llevara a la interfaz Databricks):
 
-![alt text]({8497DF71-53D0-4F6B-BE33-EDB24C42CFA0}.png)
+![image](https://github.com/user-attachments/assets/572980df-8ad5-483e-a1a4-3ff6f232b6a0)
+
 
 ## Paso 2: Creacion de un cluster de Spark en databricks
 
-1. vamos a cluster(cómputo) y crear cluster(crear cómmputo) y usaremos esta configuración(Tarda un rato en levantarse):
+1. Vamos a cluster(cómputo) y crear cluster(crear cómmputo) y usaremos esta configuración(Tarda un rato en levantarse):
 
-![alt text]({06213D0E-B579-4734-B5B3-BDC796DAE15E}.png)
+![image](https://github.com/user-attachments/assets/da7dfc4e-1c0e-401e-ab2d-f8db52a3ea78)
 
 ## Paso 3: Usar Spark
 
@@ -26,7 +27,8 @@ Azure Databricks es una plataforma de análisis de datos unificada y abierta que
 
 3. Ahora carguemos products.csv a databricks en Archivo > Cargar datos al DBFS... 
 
-![alt text]({F9FFAFDC-7E0C-4394-BC7F-751D5A354A14}.png)
+![image](https://github.com/user-attachments/assets/02e6d81d-9579-4248-9e8a-41683a94fb07)
+
 
 Pulsamos en siguiente y guardamos el codigo de la derecha con pySpark seleccionado:
 ![alt text]({308679C1-7191-473F-AF8E-703FE0611300}.png)
