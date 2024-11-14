@@ -31,7 +31,7 @@ Azure Databricks es una plataforma de análisis de datos unificada y abierta que
 
 
 Pulsamos en siguiente y guardamos el codigo de la derecha con pySpark seleccionado:
-![alt text]({308679C1-7191-473F-AF8E-703FE0611300}.png)
+![image](https://github.com/user-attachments/assets/2071d9d4-30e3-436b-92eb-5469cfce8feb)
 
 
 4. Pegando ese codigo convertimos nuestro csv en un dataframe gestionable para Spark.
@@ -49,8 +49,8 @@ display(df1)
 
 ### Usar diferentes tipos de visualización como tablas o graficos
 
-![alt text]({46C1B178-3C14-4A0E-B1EC-CC76BDC09F60}.png)
-![alt text]({CB6E48A1-C038-40C9-B9F0-C942D7DFE7C2}.png)
+![image](https://github.com/user-attachments/assets/d103bb33-cbfc-40b5-9fac-17fdfb24b866)
+![image](https://github.com/user-attachments/assets/2a6baaa7-1619-4967-ba5d-5935e2048417)
 
 ### Crear tablas y hacer consultas
 
