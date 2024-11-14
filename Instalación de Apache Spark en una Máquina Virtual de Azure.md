@@ -1,17 +1,21 @@
 # Ejercicio de Instalación de Apache Spark en una Máquina Virtual de Azure
+Tutorial de Sergio
 
 Este ejercicio tiene como objetivo crear e instalar **Apache Spark** en una **máquina virtual (VM) independiente** en **Azure**, utilizando un sistema operativo **Linux (Ubuntu)**. A lo largo del ejercicio, se aprenderán los pasos necesarios para configurar la máquina virtual, instalar Apache Spark y ejecutarlo en un entorno local.
 
 #### Antes de crear la MV creamos un grupo de recursos:
 Inicio >> Grupo de recursos >> Crear
-![FTO](assets/16.png)
+![image](https://github.com/user-attachments/assets/486c9953-80eb-4a88-be36-cc0cd2018a06)
+
 Las etiquetas las dejamos vacías. Pasamos a Revisar y crear y clickamos ``crear``:
-![FTO](assets/17.png)
+![image](https://github.com/user-attachments/assets/92222ad2-c248-4e03-b8b9-0524cb25a959)
+
 #### Una vez tengamos nuestro grupo de recursos creado, configuramos la MV en Azure:
-   ![FTO](assets/1.png)
-   ![FTO](assets/2.png)
-   ![FTO](assets/3.png)
-   ![FTO](assets/4.png)
+ ![image](https://github.com/user-attachments/assets/cea3e020-03d4-415a-ab56-334372fd0cc2)
+ ![image](https://github.com/user-attachments/assets/213e940a-7275-409b-83c1-6b3da3429a8b)
+ ![image](https://github.com/user-attachments/assets/16d808bb-f605-4d67-b3ad-05d8d1dc9087)
+ ![image](https://github.com/user-attachments/assets/22c0960c-2e84-4da0-9861-977d9cb6b9bb)
+ 
 El resto de configuraciones las dejamos por defecto.
 
 ### Implementación de Spark en la MV
@@ -96,7 +100,7 @@ spark-shell
 
 #### 7. Limpieza de recursos.
 Para finalizar, paramos y eliminamos la MV:
- ![FTO](assets/14.png)
- ![FTO](assets/15.png)
+![image](https://github.com/user-attachments/assets/9998f7f9-8e3d-4423-a45a-5494032c7816)
+![image](https://github.com/user-attachments/assets/c67edb8d-e06b-4fa9-8d75-ceb0ad3ff8e5)
 
 
