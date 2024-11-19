@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  jupyter_spark:
+    build:
+      context: .  
+    ports:
+      - "8888:8888"  # Exponer el puerto 8888 para JupyterLab
+    environment:
+      - SPARK_VERSION=3.5.3
+      - HADOOP_VERSION=3
+      - SPARK_HOME=/opt/spark
+    volumes:
+      - ./notebooks:/home/jovyan/work 
+    networks:
+      - spark_network  
+
+networks:
+  spark_network:
+    driver: bridge
