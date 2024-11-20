@@ -16,7 +16,7 @@ RUN apt-get update && \
     apt-get clean
 
 # Descargar e instalar Hadoop
-RUN wget https://dlcdn.apache.org/hadoop/common/hadoop-$HADOOP/hadoop-$HADOOP_VERSION.tar.gz && \
+RUN wget https://dlcdn.apache.org/hadoop/common/hadoop-$HADOOP_VERSION/hadoop-$HADOOP_VERSION.tar.gz && \
     tar -xzf hadoop-$HADOOP_VERSION.tar.gz -C /opt/ && \
     mv /opt/hadoop-$HADOOP_VERSION $HADOOP_HOME && \
     rm hadoop-$HADOOP_VERSION.tar.gz
