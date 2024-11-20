@@ -4,6 +4,7 @@ services:
   jupyter_spark:
     build:
       context: .  
+    image: jupyter_spark:3.5.3-hadoop3  # Nombre descriptivo de la imagen
     ports:
       - "8888:8888"  # Exponer el puerto 8888 para JupyterLab
     environment:
