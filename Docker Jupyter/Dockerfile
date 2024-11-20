@@ -20,6 +20,8 @@ RUN wget https://downloads.apache.org/spark/spark-$SPARK_VERSION/spark-$SPARK_VE
     tar -xzf spark-$SPARK_VERSION-bin-hadoop$HADOOP_VERSION.tgz -C /opt/ && \
     mv /opt/spark-$SPARK_VERSION-bin-hadoop$HADOOP_VERSION $SPARK_HOME && \
     rm spark-$SPARK_VERSION-bin-hadoop$HADOOP_VERSION.tgz
+
+RUN pip install pyspark    
  
 # Instalar JupyterLab, Apache Toree y findspark
 RUN pip install jupyterlab findspark && \
@@ -31,8 +33,6 @@ RUN python -m ipykernel install --user --name=pyspark --display-name "PySpark"
  
 RUN sudo mkdir -p /home/jovyan/.local/share/jupyter && \
     chown -R $NB_UID:$NB_GID /home/jovyan/.local
- 
- 
  
 # Cambiar de nuevo al usuario original
 USER $NB_UID
