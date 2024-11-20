@@ -15,11 +15,15 @@ RUN apt-get update && \
     apt-get install -y openjdk-11-jdk wget curl gnupg && \
     apt-get clean
 
-# Descargar e instalar Hadoop
-RUN wget https://dlcdn.apache.org/hadoop/common/hadoop-$HADOOP_VERSION/hadoop-$HADOOP_VERSION.tar.gz && \
-    tar -xzf hadoop-$HADOOP_VERSION.tar.gz -C /opt/ && \
-    mv /opt/hadoop-$HADOOP_VERSION $HADOOP_HOME && \
-    rm hadoop-$HADOOP_VERSION.tar.gz
+# RUN wget https://dlcdn.apache.org/hadoop/common/hadoop-$HADOOP_VERSION/hadoop-$HADOOP_VERSION.tar.gz && \
+#     tar -xzf hadoop-$HADOOP_VERSION.tar.gz -C /opt/ && \
+#     mv /opt/hadoop-$HADOOP_VERSION $HADOOP_HOME && \
+#     rm hadoop-$HADOOP_VERSION.tar.gz && \
+#     mkdir -p /usr/lib/hadoop/lib/native && \
+#     # Usar -r para copiar directorios recursivamente
+#     cp -r /opt/hadoop/lib/native/* /usr/lib/hadoop/lib/native/ && \
+#     # Establecer la variable de entorno LD_LIBRARY_PATH
+#     echo "export LD_LIBRARY_PATH=$HADOOP_HOME/lib/native:$LD_LIBRARY_PATH" >> ~/.bashrc
 
 # Descargar e instalar Spark usando la URL correcta
 RUN wget https://dlcdn.apache.org/spark/spark-$SPARK_VERSION/spark-$SPARK_VERSION-bin-hadoop$HADOOP.tgz && \
